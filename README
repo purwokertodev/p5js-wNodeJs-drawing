@@ -1,0 +1,8 @@
+
+Drawing application example using P5js, Node Js, ExpressJs and socket io
+
+how to get start
+
+- npm install
+- npm start
+- run at localhost:3000
