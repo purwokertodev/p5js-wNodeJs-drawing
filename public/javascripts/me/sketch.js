@@ -18,7 +18,14 @@ function setup() {
 }
 
 function draw() {
-
+  var wury = "Wuriyanto";
+  var year = "2016"
+  textSize(20);
+  fill(0, 255, 255);
+  text(wury, 10, 30);
+  textSize(18);
+  fill(0, 255, 255);
+  text(year, 10, 50);
 }
 
 function mouseDragged() {
