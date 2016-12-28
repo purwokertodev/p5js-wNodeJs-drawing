@@ -16,9 +16,9 @@ function setup() {
     function(data) {
       console.log("Got: " + data.x + " " + data.y);
       // Draw a blue circle
-      fill(0,0,255);
+      fill('#0080ff');
       noStroke();
-      ellipse(data.x,data.y,40,40);
+      ellipse(data.x,data.y, 20, 20);
     }
   );
 }
@@ -28,10 +28,9 @@ function draw() {
 }
 
 function mouseDragged() {
-  // Draw some white circles
-  fill(255);
+  fill('#ff0040');
   noStroke();
-  ellipse(mouseX,mouseY,40,40);
+  ellipse(mouseX,mouseY, 20, 20);
   // Send the mouse coordinates
   sendMouse(mouseX,mouseY);
 }
