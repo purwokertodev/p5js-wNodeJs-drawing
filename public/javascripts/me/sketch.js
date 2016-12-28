@@ -21,10 +21,10 @@ function draw() {
   var wury = "Wuriyanto";
   var year = "2016"
   textSize(20);
-  fill(0, 255, 255);
+  fill(255, 255, 0);
   text(wury, 10, 30);
   textSize(18);
-  fill(0, 255, 255);
+  fill(255, 255, 0);
   text(year, 10, 50);
 }
 
